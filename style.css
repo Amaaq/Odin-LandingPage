@@ -9,7 +9,7 @@ section {
 }
 button {
     display: block;
-    width: 80px;
+    width: 100px;
     text-align: center;
     color: #f9faf8;
     background-color: #3882f6;
@@ -18,6 +18,8 @@ button {
     outline: none;
     border-radius: 5px;
     border: none;
+    font-size: medium;
+    font-weight: 400;
     
 }
 /* First Section */
@@ -52,6 +54,7 @@ a {
     flex: 1;
     padding-right: 20px;
 }
+
 h2 {
     font-size: 48px;
     font-weight: 700;
@@ -72,6 +75,7 @@ h2 {
 }
 
 
+    /* Second Section */
 
 .two {
     text-align: center;
@@ -104,3 +108,54 @@ h3 {
     font-size: 18px;
     color: #1f2937;
 }
+
+/* Third section */
+.three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.container-three {
+    padding: 80px;
+}
+.three .author {
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+    font-size: 25px;
+}
+
+/* Fourth Section */
+.four {
+    padding: 100px 200px;
+}
+.container-four {
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+h4 {
+    font-size: 30px;
+}
+.four p {
+    font-size: 20px;
+}
+.four button {
+    border: 2px solid #f9faf8;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f2937 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
